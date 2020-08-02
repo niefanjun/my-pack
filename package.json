@@ -1,0 +1,29 @@
+{
+  "name": "my-pack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "my-pack": "./bin/my-pack.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niefanjun/my-pack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/niefanjun/my-pack/issues"
+  },
+  "homepage": "https://github.com/niefanjun/my-pack#readme",
+  "dependencies": {
+    "@babel/generator": "^7.11.0",
+    "@babel/traverse": "^7.11.0",
+    "@babel/types": "^7.11.0",
+    "babylon": "^6.18.0",
+    "ejs": "^3.1.3"
+  }
+}
